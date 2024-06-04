@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: rgb(72, 0, 155);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+img {
+    height: 140px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-weight: normal;
+    color: white;
+    font-family: sans-serif;
+}
+
+.forms-container {
+    background-color: rgb(27, 0, 64);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    width: 520px;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.forms {
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+
+input {
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    margin-top: 10px
+}
+
+button {
+    background-color: rgb(79, 0, 148);
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    color: white;
+}
+
+.voltar {
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    left: 3%;
+}
+
+.senha {
+    color: rgba(0, 187, 255, 0.688);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.senha:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: rgb(72, 0, 155);
+    height: 100px;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-top: 50px;
+    margin-top: 150px;
+}
+
+button:hover {
+    background-color: rgb(141, 41, 255);
+    cursor: pointer;
+}
